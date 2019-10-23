@@ -1,0 +1,125 @@
+#main {
+  padding-top: 20px;
+}
+
+header {
+  text-align: center;
+  font-family: 'Merienda';
+  font-size: 50px;
+  background-image: linear-gradient(to bottom right, green, yellow);
+  box-shadow: 5px 5px 5px black;
+  width: 50%;
+}
+
+#nameOfGame {
+  font-size: 100px;
+}
+
+#snakeHeader {
+  width:200px;
+  height: auto;
+  border-radius: 50px;
+}
+
+#imageDiv {
+  padding-bottom: 10px;
+}
+
+#highCol {
+  margin-top: 2%;
+  padding-left: 50px;
+}
+
+#highscore {
+  text-align: center;
+  padding: 10px;
+  background-color:black;
+  color: gold;
+  border-radius: 20px;
+}
+
+table,th,td {
+  font-family: 'Merienda';
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 2px;
+}
+
+#rules_levels {
+  margin-left: 10%;
+  margin-right: auto; 
+}
+
+#rules {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 7%;
+  margin-right: auto;
+}
+
+#rulesbtn {
+  width: 100px;
+  font-size: 30px;
+  background-color: black;
+  color: chartreuse;
+  border-color: black;
+}
+
+#rulesbtn:hover {
+  background-color: chartreuse;
+  color: black;
+}
+
+h3 {
+  font-family: 'Merienda';
+  text-align: center;
+  padding: 10px;
+  background-color: orange;
+  width: 30%;
+  border-radius: 30px;
+}
+
+h3:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+
+/* Styling of the game grid */
+#game-section {
+  margin-left: 55%;
+  position: relative;
+  margin-top:-30%;
+}
+
+.game-area {
+  background-image: url(./Images/sand.jpg);
+  background-size: contain;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #000;
+}
+
+/* Styling of the snake */
+.snake-dot {
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  background-image: radial-gradient(black, red, orange);
+  border: 0.5px solid black;
+  z-index: 2;
+}
+
+/* Styling of the snake food */
+.snake-food {
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  background: white;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  z-index: 1;
+}
+
